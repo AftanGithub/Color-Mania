@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Nunito+Sans:wght@400;600;700;800&family=Poppins:wght@200;300;400;500;600;900&display=swap');
+
+
+.wrapper{
+    text-align: center;
+    width: 300px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: 'Nunito Sans',sans-serif;
+}
+
+.author{
+    font-size: 12px;
+    color: lightgray;
+}
+
+.wrapper h2{
+    margin-bottom: 0px;
+   
+}
+
+.main__area{
+    margin-top: 20px;
+}
+
+.selectionBtn{
+    background: rgb(0, 119, 255);
+    padding: 10px 20px;
+    width: 200px;
+    text-align: center;
+    color: white;
+    border: none;
+    box-shadow: 0px 2px 4px rgb(193, 224, 235);
+    transition: 0.3s all;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.selected__color{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.color__grid{
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    border-radius: 2px;
+    margin-right: 10px;
+   
+}
+
+
+
+
+
+
+.color__value{
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.selectionBtn:hover{
+    background-color: rgb(3, 99, 209);
+
+}

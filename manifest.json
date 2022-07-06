@@ -1,0 +1,25 @@
+{
+    "name":"Color Mania",
+    "description":"A Color Picker Solution with lot of enthusiasm to give you right color",
+    "version":"1.0",
+    "manifest_version":3,
+    "background":{
+        "service_worker":"background.js"
+    },
+    "action":{
+        "default_popup":"popup.html"
+    },
+
+    "permissions":[
+        "activeTab",
+        "scripting"
+    ],
+
+    "icons":{
+        "16":"/images/color-picker16.png",
+        "24":"/images/color-picker24.png",
+        "32":"/images/color-picker32.png",
+        "64":"/images/color-picker64.png"
+    }
+
+}
